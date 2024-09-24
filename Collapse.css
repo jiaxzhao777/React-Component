@@ -1,0 +1,49 @@
+.sitegeo-collapse {
+  height: 100%;
+  display: flex;
+  color: #1f1f1f;
+}
+
+.sitegeo-collapse .sitegeo-collapse-header {
+  width: 36px;
+  background: var(--default-blue);
+  position: relative;
+  cursor: pointer;
+  border: 1px solid #f0f5ff;
+  color: #f0f5ff;
+  font-family: "Market Sans", Arial, sans-serif;
+}
+
+.sitegeo-collapse .sitegeo-collapse-header .sitegeo-collapse-arrow {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  margin-left: -12px;
+}
+
+.sitegeo-collapse .sitegeo-collapse-header .sitegeo-collapse-title {
+  position: absolute;
+  font-size: 20px;
+  writing-mode: vertical-rl;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(180deg);
+  font-weight: bold;
+  height: 90%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.sitegeo-collapse-content {
+  font-size: 20px;
+  border: 1px solid #ffffff;
+  border-top: none;
+  color: #1f1f1f;
+  overflow: hidden;
+}
+
+.sitegeo-collapse-content-inner {
+  height: 100%;
+}
